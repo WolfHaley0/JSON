@@ -14,6 +14,7 @@
 		3FC8FB4C219586E700DCA3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8FB4A219586E700DCA3F5 /* LaunchScreen.storyboard */; };
 		3FC8FB57219586E700DCA3F5 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FB56219586E700DCA3F5 /* JSONTests.swift */; };
 		3FC8FB62219586E700DCA3F5 /* JSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FB61219586E700DCA3F5 /* JSONUITests.swift */; };
+		3FC8FB7021958E4300DCA3F5 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FB6F21958E4300DCA3F5 /* PhotoInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3FC8FB5D219586E700DCA3F5 /* JSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC8FB61219586E700DCA3F5 /* JSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUITests.swift; sourceTree = "<group>"; };
 		3FC8FB63219586E700DCA3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC8FB6F21958E4300DCA3F5 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3FC8FB41219586E500DCA3F5 /* AppDelegate.swift */,
 				3FC8FB43219586E500DCA3F5 /* ViewController.swift */,
+				3FC8FB6F21958E4300DCA3F5 /* PhotoInfo.swift */,
 				3FC8FB45219586E600DCA3F5 /* Main.storyboard */,
 				3FC8FB48219586E700DCA3F5 /* Assets.xcassets */,
 				3FC8FB4A219586E700DCA3F5 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC8FB7021958E4300DCA3F5 /* PhotoInfo.swift in Sources */,
 				3FC8FB44219586E500DCA3F5 /* ViewController.swift in Sources */,
 				3FC8FB42219586E500DCA3F5 /* AppDelegate.swift in Sources */,
 			);
